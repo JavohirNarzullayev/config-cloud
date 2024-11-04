@@ -3,7 +3,7 @@
 # https://github.com/spring-cloud/spring-cloud-bus/issues/124#issuecomment-441299536
 # https://github.com/spring-cloud/spring-cloud-bus/issues/209
 encrypt:
-  key: ${ENCRYPT_KEY}
+  key: ${ENCRYPT_KEY:123}
   fail-on-error: false
 spring:
   application:
